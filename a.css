@@ -10,7 +10,6 @@ body {
 #tvp-channels {
 	display: flex;
 	flex-wrap: wrap;
-	overflow:auto;
 	background-color: #08605f
 }
 
@@ -44,6 +43,8 @@ body {
 .tvp-row {
 	display: flex;
 	color: #fff;
+	
+	overflow:auto;
 	background-color: #177e89
 }
 
